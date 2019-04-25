@@ -82,8 +82,11 @@ def adding_matz
           :languages => ["C"]
         }
      }
+#this is how I added the new info to the top level of the programmer_hash
 
-  programmer_hash.merge(:yukihiro_matsumoto => {:known_for => "Ruby", :languages => ["LISP", "C"]})
+  programmer_hash.merge(:yukihiro_matsumoto => {:known_for => "Ruby",
+  :languages => ["LISP", "C"]})
+  
 end
 
 def changing_alan
